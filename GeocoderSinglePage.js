@@ -50,7 +50,7 @@ function CSVPostedRecord(CSV_Row) {
 function parseBuildConfig() {
     // Limit the number or records viewed.
     // Record one should be table headers
-    var Preview = 350;
+    var Preview = 1550;
     if (IsNumeric($('#preview').val())) {
         Preview = parseInt($('#preview').val()) + 1;
         if (Preview < 2) {
